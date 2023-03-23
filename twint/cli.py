@@ -6,7 +6,7 @@ See wiki on Github for in-depth details.
 https://github.com/twintproject/twint/wiki
 
 Licensed under MIT License
-Copyright (c) 2018 The Twint Project  
+Copyright (c) 2018 The Twint Project
 '''
 import sys
 import os
@@ -331,10 +331,10 @@ def main():
 
 
 def run_as_command():
-    version = ".".join(str(v) for v in sys.version_info[:2])
-    if float(version) < 3.6:
-        print("[-] TWINT requires Python version 3.6+.")
-        sys.exit(0)
+#    version = ".".join(str(v) for v in sys.version_info[:2])
+#    if float(version) < 3.6:
+#        print("[-] TWINT requires Python version 3.6+.")
+#        sys.exit(0)
 
     main()
 
